@@ -40,7 +40,7 @@ body {
 .brand {
   font-weight: 700;
   letter-spacing: 0.3px;
-  text-transform: lowercase; /* keeps the exact style like you wrote */
+  text-transform: none; /* keeps the exact style like you wrote */
 }
 
 /* Navigation */
