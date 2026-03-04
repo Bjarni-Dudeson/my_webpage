@@ -39,6 +39,7 @@ body {
 
 .brand {
   font-weight: 800;
+  font-size: 34px;
   letter-spacing: 0.4px;
   text-transform: none; /* keeps the exact style like you wrote */
 }
