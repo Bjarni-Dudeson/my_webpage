@@ -39,9 +39,9 @@ body {
 
 .brand {
   font-weight: 800;
-  font-size: 34px;   /* bigger name */
+  font-size: 34px;
   letter-spacing: 0.4px;
-  text-transform: lowercase;
+  text-transform: none; /* ✅ uses whatever you typed in HTML */
 }
 
 /* Navigation */
