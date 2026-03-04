@@ -41,7 +41,7 @@ body {
   font-weight: 800;
   font-size: 38px;
   letter-spacing: 0.4px;
-  text-transform: none; /* ✅ uses whatever you typed in HTML */
+  text-transform: uppercase; /* ✅ uses whatever you typed in HTML */
 }
 
 /* Navigation */
