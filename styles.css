@@ -1,10 +1,12 @@
 /* styles.css */
 
 :root {
-  --bg: #dff5df;          /* light green background */
+  --bg: #dff5df;
   --text: #0f2a0f;
   --card: rgba(255,255,255,0.6);
   --border: rgba(15,42,15,0.15);
+
+  --page-width: 1400px; /* ✅ wider layout */
 }
 
 * { box-sizing: border-box; }
@@ -27,7 +29,7 @@ body {
 }
 
 .header-inner {
-  max-width: 1100px;
+  max-width: var(--page-width);   /* ✅ was 1100px */
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -70,7 +72,7 @@ body {
 
 /* Page content */
 .main {
-  max-width: 1100px;
+  max-width: var(--page-width);   /* ✅ was 1100px */
   margin: 28px auto;
   padding: 0 24px 40px;
 }
