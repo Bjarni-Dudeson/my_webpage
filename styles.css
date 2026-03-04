@@ -48,16 +48,14 @@ body {
 .nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
+  gap: 10px;              /* was 14px */
   align-items: center;
 }
 
 .nav a {
-  text-decoration: none;
-  color: var(--text);
-  padding: 8px 10px;
+  padding: 6px 8px;       /* was 8px 10px */
+  font-size: 15px;        /* add this */
   border-radius: 10px;
-  border: 1px solid transparent;
 }
 
 .nav a:hover {
